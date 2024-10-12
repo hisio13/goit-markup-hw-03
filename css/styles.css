@@ -27,7 +27,7 @@ margin: 0 auto;
 }
 .header {
 padding: 24px 0;
-    border-bottom: 1px solid #e7e9fc;
+border-bottom: 1px solid #e7e9fc;
 }
 
 .header-nav {
@@ -54,12 +54,11 @@ margin-left: 156px;
 .header-menu-list {
 display: flex;
 align-items: center;
-gap: 24px;
+gap: 40px;
+
 }
 .header-container {
 display:flex;
-gap: 40px;
-padding:24px 0;
 }
 .header-menu-item {
         font-weight: 500;
