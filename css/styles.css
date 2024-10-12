@@ -26,14 +26,14 @@ padding-right: 15px;
 margin: 0 auto;
 }
 .header {
-padding: 24px 0;
+padding: 24px 0 24px;
 border-bottom: 1px solid #e7e9fc;
 }
 
 .header-nav {
 display: flex;
 align-items: center;
-gap: 40px;
+gap:40px;
 }
 
 .header-logo {
@@ -128,13 +128,20 @@ font-style: normal;
 .title-btn:hover, .title-btn:focus{
     background-color: #404BBF
 }
+
 .visually-hidden {
-        border: 0;
-        white-space: nowrap;
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
-}
+     position: absolute;
+     width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+ white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+ }
+
 .features{
     padding-top: 120px;
     padding-bottom: 120px;
@@ -188,8 +195,8 @@ padding:120px 0;
 
 .team-item {
     background-color: #FFFFFF;
-    width: calc((264-3*24px)/4)
     border-radius: 0px 0px 4px 4px;
+    width: calc((264-3*24px)/4)
 }
 .team-img {
     
