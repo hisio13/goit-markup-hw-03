@@ -26,15 +26,14 @@ padding-right: 15px;
 margin: 0 auto;
 }
 .header {
-padding-top: 24px;
-padding-bottom: 24px;
+padding: 24px 0;
 border-bottom: 1px solid #e7e9fc;
 }
 
 .header-nav {
 display: flex;
 align-items: center;
-gap:40px;
+gap: 40px;
 }
 
 .header-logo {
@@ -134,7 +133,7 @@ font-style: normal;
         white-space: nowrap;
         clip-path: inset(100%);
         clip: rect(0 0 0 0);
-        overflow: hidden;     
+        overflow: hidden;
 }
 .features{
     padding-top: 120px;
@@ -190,6 +189,7 @@ padding:120px 0;
 .team-item {
     background-color: #FFFFFF;
     width: calc((264-3*24px)/4)
+    border-radius: 0px 0px 4px 4px;
 }
 .team-img {
     
@@ -231,7 +231,7 @@ padding-bottom: 120px;
         text-align: center;
         color: #2E2F42;
         text-transform: capitalize;
-        padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .portfolio-list {
