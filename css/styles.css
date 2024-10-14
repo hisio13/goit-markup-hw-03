@@ -27,8 +27,6 @@ margin: 0 auto;
 }
 .header {
 border-bottom: 1px solid #e7e9fc;
-padding-top: 24px;
-padding-bottom:  24px;
 }
 
 .header-nav {
@@ -45,9 +43,6 @@ align-items: center;
     text-transform: uppercase;
     color: #4D5AE5;
 margin-right:76px ;
-margin-left: 156px;
-padding-top: 24px;
-padding-bottom: 24px;
 }
 
 .header-logo span {
@@ -114,8 +109,6 @@ margin-left:auto;
         letter-spacing: 0.02em;
         color: #FFFFFF;
         text-align:center;
-        padding-top: 188px;
-        padding-bottom: 48px;
         max-width: 496px;
         margin:0 auto;
         margin-bottom: 48px;
@@ -163,7 +156,7 @@ gap: 24px;
 display:flex;
 }
 .features-item{
-    width:calc((100%-72px)/4);
+    width:calc((100% - 72px)/4);
 }
 .features-title {
     font-weight: 500;
@@ -193,7 +186,6 @@ padding:120px 0;
         text-align: center;
         color: #2E2F42;
         text-transform: capitalize;
-        padding-top: 120px;
         margin-bottom: 72px;
         border-radius: 0px 0px 4px 4px;
 }
@@ -201,14 +193,12 @@ padding:120px 0;
     background-color:#f4f4fd;
     display: flex;
     gap: 24px;
-    padding-top:72px;
-    padding-bottom: 120px;
 }
 
 .team-item {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
-    width: calc((264-3*24px)/4)
+    width: calc((264 - 3*24px)/4)
 }
 .team-img {
     
@@ -223,7 +213,6 @@ padding:120px 0;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2E2F42;
-        margin-top: 32px;
         margin-bottom: 8px;
 }
 
@@ -233,7 +222,6 @@ padding:120px 0;
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
-        margin-bottom: 32px;
         margin-top: 8px;
 }
 
@@ -276,7 +264,6 @@ border-top:none;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2E2F42;
-        margin-top: 32px;
         margin-bottom: 8px;
 }
 
@@ -292,8 +279,6 @@ border-top:none;
     padding:100px 0;
 }
 .container-footer{
-    padding-top: 100px;
-    padding-bottom: 100px;
 }
 .footer-logo {
     font-family:"Raleway",sans-serif;
@@ -316,4 +301,5 @@ color:#F4F4FD
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    max-width: 264px;
 }
